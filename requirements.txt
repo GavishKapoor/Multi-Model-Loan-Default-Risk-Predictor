@@ -63,9 +63,9 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
 notebook==7.4.5
 notebook_shim==0.2.4
-numpy==2.3.2
+numpy==1.26.4
 packaging==25.0
-pandas==2.3.2
+pandas==1.5.3
 pandocfilters==1.5.1
 parso==0.8.5
 pillow==11.3.0
@@ -80,9 +80,7 @@ pyparsing==3.2.3
 python-dateutil==2.9.0.post0
 python-json-logger==3.3.0
 pytz==2025.2
-# Only install pywin32 on Windows
 pywin32==311; sys_platform == 'win32'
-# Only install pywinpty on Windows
 pywinpty==3.0.0; sys_platform == 'win32'
 PyYAML==6.0.2
 pyzmq==27.0.2
